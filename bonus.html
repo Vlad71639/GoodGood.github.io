@@ -1,142 +1,231 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Dog House — Бонусы и фриспины 🎁</title>
-  <meta name="description" content="Все бонусы, фриспины и особенности слота The Dog House от Pragmatic Play. Узнайте, как активировать бонусные раунды и увеличить выигрыш!" />
-  <link rel="icon" href="https://doghouse.cards/DOG3.png" type="image/png" />
-  <link rel="shortcut icon" href="https://doghouse.cards/DOG3.png" type="image/png" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="yandex" content="index, follow" />
+
+  <title>The Dog House — бонусы и фриспины</title>
+  <meta name="description" content="Бонусы и фриспины The Dog House: что запускает бонусный раунд, какие механики важны и что проверить перед началом. Нажмите кнопку, чтобы начать игру." />
   <link rel="canonical" href="https://doghouse.cards/bonus.html" />
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="The Dog House — Бонусы и фриспины 🎰" />
-  <meta property="og:description" content="Все о бонусах и фриспинах в слоте The Dog House от Pragmatic Play. Как активировать, как выигрывать, где играть онлайн." />
+  <link rel="icon" href="/DOG3.png" type="image/png" />
+  <link rel="apple-touch-icon" href="/DOG3.png" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="The Dog House — бонусы и фриспины" />
+  <meta property="og:description" content="Разбираем бонусные механики The Dog House и FAQ. Нажмите кнопку, чтобы начать игру." />
   <meta property="og:image" content="https://doghouse.cards/DOG3.png" />
   <meta property="og:url" content="https://doghouse.cards/bonus.html" />
-  <meta property="og:type" content="article" />
-  <meta property="og:site_name" content="Dog House Cards" />
 
-  <!-- Schema.org -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="The Dog House — бонусы и фриспины" />
+  <meta name="twitter:description" content="Разбираем бонусные механики The Dog House и FAQ. Нажмите кнопку, чтобы начать игру." />
+  <meta name="twitter:image" content="https://doghouse.cards/DOG3.png" />
+
+  <meta name="theme-color" content="#0b0b12" />
+
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Game",
-    "name": "The Dog House",
-    "applicationCategory": "SlotGame",
-    "operatingSystem": "Web",
-    "author": {
-      "@type": "Organization",
-      "name": "Pragmatic Play"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Dog House Cards"
-    },
-    "description": "Подробное описание бонусов и фриспинов в слоте The Dog House от Pragmatic Play.",
-    "url": "https://doghouse.cards/bonus.html"
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {"@type":"Question","name":"Как активируются бонусы и фриспины в The Dog House?","acceptedAnswer":{"@type":"Answer","text":"Фриспины активируются по событиям внутри слота. Конкретные условия зависят от оператора — ориентируйтесь на правила игры."}},
+      {"@type":"Question","name":"От чего зависит частота фриспинов?","acceptedAnswer":{"@type":"Answer","text":"На частоту влияют параметры версии игры, условия и ваш подход к сессии. Для понимания динамики сравните несколько игр в одном диапазоне ставок."}},
+      {"@type":"Question","name":"Что проверить перед началом игры?","acceptedAnswer":{"@type":"Answer","text":"Смотрите RTP и волатильность, определите размер ставки и лимиты по времени и сумме, чтобы держать контроль."}}
+    ]
   }
   </script>
 
   <style>
-    body {
-      background-color: #0d0d0d;
-      color: #fff;
-      font-family: 'Segoe UI', Roboto, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
+    :root{
+      --bg:#0b0b12;
+      --text:#eaf4ff;
+      --muted:#a9bed9;
+      --accent:#ffd166;
+      --accent2:#58a6ff;
+      --border: rgba(255,255,255,.10);
+      --panel: rgba(255,255,255,.04);
+      --panel2: rgba(255,255,255,.02);
+      --radius: 16px;
+      --shadow: 0 18px 55px rgba(0,0,0,.45);
+      --max: 1120px;
     }
-    header {
-      text-align: center;
-      padding: 2rem 1rem;
+    *{box-sizing:border-box}
+    html,body{height:100%; margin:0; font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial; background: var(--bg); color: var(--text);}
+    body{
+      padding-bottom:70px;
+      line-height:1.6;
+      background:
+        radial-gradient(1200px 600px at 20% -10%, rgba(255,209,102,.14), transparent 60%),
+        radial-gradient(900px 480px at 90% 0%, rgba(88,166,255,.10), transparent 55%),
+        var(--bg);
     }
-    h1 {
-      font-size: 2rem;
-      color: #f4d03f;
+    .wrap{max-width:var(--max); margin:28px auto; padding:0 18px;}
+    .topbar{
+      display:flex; align-items:center; justify-content:space-between; gap:14px;
+      padding:16px; border:1px solid var(--border);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
     }
-    main {
-      max-width: 800px;
-      margin: auto;
-      padding: 1rem 2rem;
-      background: rgba(255,255,255,0.05);
-      border-radius: 12px;
+    .brand{display:flex; align-items:center; gap:12px;}
+    .logo{
+      width:56px; height:56px; border-radius:14px; overflow:hidden;
+      border:1px solid rgba(255,255,255,.14);
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      display:flex; align-items:center; justify-content:center;
     }
-    a.play-btn {
-      display: inline-block;
-      margin: 1.5rem 0;
-      padding: 0.8rem 1.5rem;
-      background: linear-gradient(90deg, #f4d03f, #f39c12);
-      color: #000;
-      font-weight: bold;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: 0.3s;
+    .logo img{width:44px; height:44px; object-fit:cover; filter: drop-shadow(0 10px 18px rgba(255,209,102,.18));}
+    .brand h1{margin:0; font-size:16px; font-weight:900; letter-spacing:.2px;}
+    .brand p{margin:3px 0 0; color:var(--muted); font-size:13px;}
+
+    .grid{display:grid; grid-template-columns: 1fr 360px; gap:18px; align-items:start; margin-top:18px;}
+    .card{
+      border-radius:var(--radius);
+      border:1px solid var(--border);
+      background: linear-gradient(180deg, var(--panel), var(--panel2));
+      padding:18px;
+      box-shadow: 0 14px 40px rgba(0,0,0,.20);
     }
-    a.play-btn:hover {
-      background: linear-gradient(90deg, #f39c12, #f4d03f);
-      transform: scale(1.05);
+    .hero h2{margin:0 0 10px; font-size:28px; color:var(--accent); font-family: Montserrat, Inter, sans-serif;}
+    .lede{margin:0 0 14px; color:#cfe9ff;}
+    .anchors{display:flex; flex-wrap:wrap; gap:10px; margin-top:8px;}
+    .anchor{
+      text-decoration:none;
+      border:1px solid rgba(255,255,255,.10);
+      background: rgba(255,255,255,.02);
+      padding:9px 12px; border-radius:12px;
+      color:#fff; font-weight:900; font-size:13px;
     }
-    footer {
-      text-align: center;
-      margin-top: 2rem;
-      padding: 1rem;
+    .anchor:hover{border-color: rgba(255,209,102,.35);}
+    .section{margin-top:16px;}
+    .section h3{margin:0 0 10px; font-size:16px; color:#fff;}
+    .section p{margin:0 0 8px; color:#cfe9ff;}
+    ul{margin:0; padding-left:18px;}
+    .faq{margin-top:14px;}
+    .faq details{
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.02);
+      border-radius:12px;
+      padding:10px 12px;
+      margin:10px 0;
     }
-    footer a {
-      display: inline-block;
-      margin: 0.5rem;
-      padding: 0.6rem 1.2rem;
-      color: #fff;
-      background: #222;
-      border: 1px solid #444;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: 0.3s;
+    .faq summary{cursor:pointer; font-weight:900;}
+
+    .aside{position:sticky; top:18px;}
+    .ctaTitle{font-weight:900; color:var(--accent); font-size:18px; margin-bottom:4px;}
+    .ctaSub{color:var(--muted); font-size:13px; margin-bottom:14px;}
+    .btn{
+      display:flex; align-items:center; justify-content:center; gap:10px;
+      padding:14px 16px; border-radius:999px; text-decoration:none;
+      background: linear-gradient(90deg, #ffcf66, #ff9b9b);
+      color:#111; font-weight:900;
+      box-shadow: 0 18px 55px rgba(255,153,153,.10);
     }
-    footer a:hover {
-      background: #f4d03f;
-      color: #000;
+    .btn:hover{filter: brightness(1.02);}
+    .ghost{
+      margin-top:12px; display:block; text-align:center; text-decoration:none;
+      padding:12px 14px; border-radius:12px;
+      border:1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.02);
+      font-weight:900; color:var(--accent2);
+    }
+    footer{margin-top:22px; text-align:center; color:var(--muted); font-size:13px;}
+    .smallGrid{display:grid; grid-template-columns: repeat(3, 1fr); gap:12px; margin-top:16px;}
+    .smallCard{border:1px solid rgba(255,255,255,.12); background: rgba(255,255,255,.02); border-radius:14px; padding:12px;}
+    .smallCard b{display:block; margin-bottom:6px;}
+    .smallCard a{color:var(--accent2); text-decoration:none; font-weight:900;}
+    .smallCard a:hover{text-decoration:underline;}
+
+    @media (max-width: 980px){
+      .grid{grid-template-columns:1fr;}
+      .aside{position:static;}
+      .smallGrid{grid-template-columns:1fr;}
     }
   </style>
+
+  <script defer src="https://vercel.com/analytics/script.js"></script>
+  <script type="text/javascript">
+    (function(m,e,t,r,i,k,a){
+      m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();
+      for (var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
+      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104840097','ym');
+    ym(104840097,'init',{ssr:true,webvisor:true,clickmap:true,ecommerce:"dataLayer",accurateTrackBounce:true,trackLinks:true});
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/104840097" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 </head>
 <body>
-  <header>
-    <h1>Бонусы и фриспины в The Dog House 🎁</h1>
-  </header>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"><img alt="The Dog House" loading="lazy" src="https://doghouse.cards/DOG3.png"/></div>
+        <div>
+          <h1 itemprop="name">Бонусы и фриспины The Dog House</h1>
+          <p itemprop="description">Что запускает бонусный раунд и что учитывать перед игрой.</p>
+        </div>
+      </div>
+    </div>
 
-  <main>
-    <p>Слот <strong>The Dog House</strong> от Pragmatic Play давно заслужил статус одного из самых популярных благодаря своим уникальным бонусам и щедрым множителям. Игроки могут активировать фриспины, множители до х3 и насладиться динамичным игровым процессом с высоким RTP.</p>
+    <div class="grid">
+      <section class="card hero" aria-label="Контент">
+        <h2>Бонусы и фриспины</h2>
+        <p class="lede">Коротко и по делу: как активируются фриспины, что влияет на динамику и какие решения помогают держать контроль.</p>
 
-    <p>Чтобы получить фриспины, нужно собрать три бонусных символа «Dog House». После этого начинается серия бесплатных вращений, где липкие Wild-символы увеличивают шансы на крупный выигрыш. В зависимости от количества символов, вы можете получить от 9 до 27 бесплатных вращений.</p>
+        <div class="anchors" aria-label="Оглавление">
+          <a class="anchor" href="#trigger">Триггеры</a>
+          <a class="anchor" href="#factors">Что влияет</a>
+          <a class="anchor" href="#faq">FAQ</a>
+        </div>
 
-    <p>Главная особенность бонусного раунда — это Wild множители. Каждый такой символ может увеличить выигрыш в несколько раз, что делает каждое вращение особенно захватывающим. Опытные игроки советуют начинать с минимальной ставки и увеличивать её после активации бонуса — так можно выжать максимум из сессии.</p>
+        <div class="section" id="trigger">
+          <h3>Триггеры бонуса</h3>
+          <p>Бонусные механики активируются по событиям внутри игры. Для понимания динамики смотрите связку триггеров и того, как усиливаются комбинации.</p>
+        </div>
 
-    <p>Также слот поддерживает режим автоспинов и функцию быстрых вращений, что позволяет ускорить процесс и сосредоточиться на самых интересных моментах. Независимо от вашего опыта, бонусы в The Dog House делают игру по-настоящему увлекательной.</p>
+        <div class="section" id="factors">
+          <h3>Что влияет на динамику</h3>
+          <ul>
+            <li>Условия и версия игры у оператора</li>
+            <li>Размер ставки в начале сессии</li>
+            <li>Длительность и ваш подход к лимитам</li>
+          </ul>
+        </div>
 
-    <a href="https://one-vv6649.com/casino/list?open=register&sub1=Dog" class="play-btn">🎰 Играть сейчас</a>
+        <div class="faq section" id="faq">
+          <h3 style="margin:0 0 10px;">FAQ</h3>
+          <details><summary>Как активируются бонусы?</summary><p>По событиям внутри механики. Точные условия зависят от оператора.</p></details>
+          <details><summary>Можно ли получить бонус без повышенных ставок?</summary><p>Обычно да — но результаты могут отличаться. Начните с комфортного размера ставки.</p></details>
+          <details><summary>Что проверить перед началом?</summary><p>Смотрите RTP и волатильность, определите лимиты по времени и сумме.</p></details>
+        </div>
 
-    <p>Хотите узнать больше о стратегиях и демо-версии? Ознакомьтесь с нашими разделами ниже.</p>
-  </main>
+        <div class="section" aria-label="Внутренние ссылки">
+          <h3 style="margin:0 0 10px;">Еще больше слотов</h3>
+          <div class="smallGrid">
+            <div class="smallCard"><b>Zeus vs Hades</b><a href="https://doghouse.cards/zeus-vs-hades.html">Открыть</a></div>
+            <div class="smallCard"><b>Sweet Bonanza</b><a href="https://doghouse.cards/sweet-bonanza.html">Открыть</a></div>
+            <div class="smallCard"><b>Olympus</b><a href="https://doghouse.cards/olympus.html">Открыть</a></div>
+          </div>
+        </div>
+      </section>
 
-  <footer>
-    <a href="https://doghouse.cards">🏠 Главная</a>
-    <a href="https://doghouse.cards/strategy.html">🧠 Стратегия</a>
-    <a href="https://doghouse.cards/demo.html">🎮 Демо</a>
-  </footer>
+      <aside class="card aside" aria-label="CTA">
+        <div class="ctaTitle">ИГРАЙ СЕЙЧАС</div>
+        <div class="ctaSub">Перейдите к регистрации и начните сессию.</div>
+        <a aria-label="Играть сейчас" class="btn" href="https://one-vv6649.com/casino/list?open=register&sub1=dog" id="playBtn" rel="noopener noreferrer" target="_blank">
+          ИГРАТЬ СЕЙЧАС
+          <svg aria-hidden="true" height="18" viewBox="0 0 24 24" width="18"><path d="M12 2L3 7v6c0 5 3.7 9.7 9 11 5.3-1.3 9-6 9-11V7l-9-5z" fill="#111"></path></svg>
+        </a>
+        <a class="ghost" href="https://one-vv6649.com/casino/list?open=register&sub1=dog" rel="noopener noreferrer" target="_blank">Зарегистрироваться</a>
+      </aside>
+    </div>
 
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104840097', 'ym');
-
-    ym(104840097, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", accurateTrackBounce:true, trackLinks:true});
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/104840097" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-  
+    <footer>© 2026 DogHouse • Азарт сопряжен с риском — играйте ответственно.</footer>
+  </div>
 </body>
 </html>
+
