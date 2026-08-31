@@ -162,7 +162,7 @@ body {
   font-weight: 950;
 }
 
-.hero a.anchor[href*="demo.black"] {
+.hero a.anchor[href*="demoplay.vip"] {
   width: min(100%, 470px);
   min-height: 58px;
   display: flex !important;
@@ -183,7 +183,7 @@ body {
   text-transform: uppercase;
 }
 
-.hero a.anchor[href*="demo.black"]::before {
+.hero a.anchor[href*="demoplay.vip"]::before {
   content: "▶";
   width: 30px;
   height: 30px;
@@ -198,7 +198,7 @@ body {
   font-size: 12px;
 }
 
-.hero a.anchor[href*="demo.black"]:hover {
+.hero a.anchor[href*="demoplay.vip"]:hover {
   transform: translateY(-3px) scale(1.01);
   filter: brightness(1.05);
   box-shadow: 0 20px 48px rgba(87, 220, 166, .3), inset 0 1px 0 rgba(255, 255, 255, .65);
@@ -404,7 +404,7 @@ details {
     padding: 16px;
   }
 
-  .hero a.anchor[href*="demo.black"] {
+  .hero a.anchor[href*="demoplay.vip"] {
     width: 100%;
     padding: 14px 16px !important;
     font-size: 13px !important;
